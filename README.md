@@ -1,2 +1,2 @@
 # Project
-Java联系项目
+Java项目练习
