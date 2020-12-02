@@ -735,7 +735,7 @@ Caused by: java.net.ConnectException: Connection refused: connect
 2020-11-16-16-40 [main] [org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean] [INFO] - Creating Service {http://WebService.bionime.com/}CommonServiceImpl from class com.bionime.WebService.CommonService
 2020-11-16-16-40 [main] [org.apache.cxf.endpoint.ServerImpl] [INFO] - Setting the server's publish address to be /CommonService
 2020-11-16-16-40 [main] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter] [INFO] - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@16f7c8c1: startup date [Mon Nov 16 16:40:34 CST 2020]; root of context hierarchy
-2020-11-16-16-40 [main] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] [INFO] - Mapped "{[/find]}" onto public java.lang.String com.bionime.Controller.WebServiceController.WebService()
+2020-11-16-16-40 [main] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] [INFO] - Mapped "{[/find]}" onto public java.lang.String com.bionime.controller.WebServiceController.WebService()
 2020-11-16-16-40 [main] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] [INFO] - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
 2020-11-16-16-40 [main] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] [INFO] - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
 2020-11-16-16-40 [main] [org.springframework.web.servlet.handler.SimpleUrlHandlerMapping] [INFO] - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
@@ -771,7 +771,7 @@ Headers: {Accept=[text/html,application/xhtml+xml,application/xml;q=0.9,image/av
 2020-11-16-16-58 [main] [org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean] [INFO] - Creating Service {http://WebService.bionime.com/}CommonServiceImpl from class com.bionime.WebService.CommonService
 2020-11-16-16-58 [main] [org.apache.cxf.endpoint.ServerImpl] [INFO] - Setting the server's publish address to be /CommonService
 2020-11-16-16-58 [main] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter] [INFO] - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@fcd6521: startup date [Mon Nov 16 16:58:15 CST 2020]; root of context hierarchy
-2020-11-16-16-58 [main] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] [INFO] - Mapped "{[/find]}" onto public java.lang.String com.bionime.Controller.WebServiceController.WebService()
+2020-11-16-16-58 [main] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] [INFO] - Mapped "{[/find]}" onto public java.lang.String com.bionime.controller.WebServiceController.WebService()
 2020-11-16-16-58 [main] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] [INFO] - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
 2020-11-16-16-58 [main] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] [INFO] - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
 2020-11-16-16-58 [main] [org.springframework.web.servlet.handler.SimpleUrlHandlerMapping] [INFO] - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
@@ -798,7 +798,7 @@ Headers: {Accept=[text/html,application/xhtml+xml,application/xml;q=0.9,image/av
 2020-11-16-16-59 [main] [org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean] [INFO] - Creating Service {http://WebService.bionime.com/}CommonServiceImpl from class com.bionime.WebService.CommonService
 2020-11-16-16-59 [main] [org.apache.cxf.endpoint.ServerImpl] [INFO] - Setting the server's publish address to be /CommonService
 2020-11-16-16-59 [main] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter] [INFO] - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@16f7c8c1: startup date [Mon Nov 16 16:59:07 CST 2020]; root of context hierarchy
-2020-11-16-16-59 [main] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] [INFO] - Mapped "{[/]}" onto public java.lang.String com.bionime.Controller.WebServiceController.WebService()
+2020-11-16-16-59 [main] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] [INFO] - Mapped "{[/]}" onto public java.lang.String com.bionime.controller.WebServiceController.WebService()
 2020-11-16-16-59 [main] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] [INFO] - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
 2020-11-16-16-59 [main] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] [INFO] - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
 2020-11-16-16-59 [main] [org.springframework.web.servlet.handler.SimpleUrlHandlerMapping] [INFO] - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
@@ -825,7 +825,7 @@ Headers: {Accept=[text/html,application/xhtml+xml,application/xml;q=0.9,image/av
 2020-11-16-17-00 [main] [org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean] [INFO] - Creating Service {http://WebService.bionime.com/}CommonServiceImpl from class com.bionime.WebService.CommonService
 2020-11-16-17-00 [main] [org.apache.cxf.endpoint.ServerImpl] [INFO] - Setting the server's publish address to be /CommonService
 2020-11-16-17-00 [main] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter] [INFO] - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@fcd6521: startup date [Mon Nov 16 17:00:28 CST 2020]; root of context hierarchy
-2020-11-16-17-00 [main] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] [INFO] - Mapped "{[/find]}" onto public java.lang.String com.bionime.Controller.WebServiceController.WebService()
+2020-11-16-17-00 [main] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] [INFO] - Mapped "{[/find]}" onto public java.lang.String com.bionime.controller.WebServiceController.WebService()
 2020-11-16-17-00 [main] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] [INFO] - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
 2020-11-16-17-00 [main] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] [INFO] - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
 2020-11-16-17-00 [main] [org.springframework.web.servlet.handler.SimpleUrlHandlerMapping] [INFO] - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
@@ -861,7 +861,7 @@ Headers: {Accept=[text/html,application/xhtml+xml,application/xml;q=0.9,image/av
 2020-11-16-17-03 [main] [org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean] [INFO] - Creating Service {http://WebService.bionime.com/}CommonServiceImpl from class com.bionime.WebService.CommonService
 2020-11-16-17-03 [main] [org.apache.cxf.endpoint.ServerImpl] [INFO] - Setting the server's publish address to be /CommonService
 2020-11-16-17-03 [main] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter] [INFO] - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@16f7c8c1: startup date [Mon Nov 16 17:03:25 CST 2020]; root of context hierarchy
-2020-11-16-17-03 [main] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] [INFO] - Mapped "{[/find],methods=[POST || GET]}" onto public java.lang.String com.bionime.Controller.WebServiceController.WebService()
+2020-11-16-17-03 [main] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] [INFO] - Mapped "{[/find],methods=[POST || GET]}" onto public java.lang.String com.bionime.controller.WebServiceController.WebService()
 2020-11-16-17-03 [main] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] [INFO] - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
 2020-11-16-17-03 [main] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] [INFO] - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
 2020-11-16-17-03 [main] [org.springframework.web.servlet.handler.SimpleUrlHandlerMapping] [INFO] - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
@@ -888,7 +888,7 @@ Headers: {Accept=[text/html,application/xhtml+xml,application/xml;q=0.9,image/av
 2020-11-16-17-04 [main] [org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean] [INFO] - Creating Service {http://WebService.bionime.com/}CommonServiceImpl from class com.bionime.WebService.CommonService
 2020-11-16-17-04 [main] [org.apache.cxf.endpoint.ServerImpl] [INFO] - Setting the server's publish address to be /CommonService
 2020-11-16-17-04 [main] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter] [INFO] - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@16f7c8c1: startup date [Mon Nov 16 17:03:59 CST 2020]; root of context hierarchy
-2020-11-16-17-04 [main] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] [INFO] - Mapped "{[/find],methods=[POST || GET]}" onto public java.lang.String com.bionime.Controller.WebServiceController.WebService()
+2020-11-16-17-04 [main] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] [INFO] - Mapped "{[/find],methods=[POST || GET]}" onto public java.lang.String com.bionime.controller.WebServiceController.WebService()
 2020-11-16-17-04 [main] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] [INFO] - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
 2020-11-16-17-04 [main] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] [INFO] - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
 2020-11-16-17-04 [main] [org.springframework.web.servlet.handler.SimpleUrlHandlerMapping] [INFO] - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
@@ -915,7 +915,7 @@ Headers: {Accept=[text/html,application/xhtml+xml,application/xml;q=0.9,image/av
 2020-11-16-17-07 [main] [org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean] [INFO] - Creating Service {http://WebService.bionime.com/}CommonServiceImpl from class com.bionime.WebService.CommonService
 2020-11-16-17-07 [main] [org.apache.cxf.endpoint.ServerImpl] [INFO] - Setting the server's publish address to be /CommonService
 2020-11-16-17-07 [main] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter] [INFO] - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@fcd6521: startup date [Mon Nov 16 17:07:15 CST 2020]; root of context hierarchy
-2020-11-16-17-07 [main] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] [INFO] - Mapped "{[/find],methods=[POST || GET]}" onto public java.lang.String com.bionime.Controller.WebServiceController.WebService()
+2020-11-16-17-07 [main] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] [INFO] - Mapped "{[/find],methods=[POST || GET]}" onto public java.lang.String com.bionime.controller.WebServiceController.WebService()
 2020-11-16-17-07 [main] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] [INFO] - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
 2020-11-16-17-07 [main] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] [INFO] - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
 2020-11-16-17-07 [main] [org.springframework.web.servlet.handler.SimpleUrlHandlerMapping] [INFO] - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
@@ -942,7 +942,7 @@ Headers: {Accept=[text/html,application/xhtml+xml,application/xml;q=0.9,image/av
 2020-11-17-13-30 [main] [org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean] [INFO] - Creating Service {http://WebService.bionime.com/}CommonServiceImpl from class com.bionime.WebService.CommonService
 2020-11-17-13-30 [main] [org.apache.cxf.endpoint.ServerImpl] [INFO] - Setting the server's publish address to be /CommonService
 2020-11-17-13-30 [main] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter] [INFO] - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@16f7c8c1: startup date [Tue Nov 17 13:30:30 CST 2020]; root of context hierarchy
-2020-11-17-13-30 [main] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] [INFO] - Mapped "{[/find],methods=[POST || GET]}" onto public java.lang.String com.bionime.Controller.WebServiceController.WebService()
+2020-11-17-13-30 [main] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] [INFO] - Mapped "{[/find],methods=[POST || GET]}" onto public java.lang.String com.bionime.controller.WebServiceController.WebService()
 2020-11-17-13-30 [main] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] [INFO] - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
 2020-11-17-13-30 [main] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] [INFO] - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
 2020-11-17-13-30 [main] [org.springframework.web.servlet.handler.SimpleUrlHandlerMapping] [INFO] - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
@@ -975,7 +975,7 @@ Headers: {Accept=[text/html,application/xhtml+xml,application/xml;q=0.9,image/av
 2020-11-17-13-32 [localhost-startStop-1] [org.springframework.boot.web.servlet.FilterRegistrationBean] [INFO] - Mapping filter: 'httpPutFormContentFilter' to: [/*]
 2020-11-17-13-32 [localhost-startStop-1] [org.springframework.boot.web.servlet.FilterRegistrationBean] [INFO] - Mapping filter: 'requestContextFilter' to: [/*]
 2020-11-17-13-32 [main] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter] [INFO] - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@16f7c8c1: startup date [Tue Nov 17 13:32:09 CST 2020]; root of context hierarchy
-2020-11-17-13-32 [main] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] [INFO] - Mapped "{[/find],methods=[POST || GET]}" onto public java.lang.String com.bionime.Controller.WebServiceController.WebService()
+2020-11-17-13-32 [main] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] [INFO] - Mapped "{[/find],methods=[POST || GET]}" onto public java.lang.String com.bionime.controller.WebServiceController.WebService()
 2020-11-17-13-32 [main] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] [INFO] - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
 2020-11-17-13-32 [main] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] [INFO] - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
 2020-11-17-13-32 [main] [org.springframework.web.servlet.handler.SimpleUrlHandlerMapping] [INFO] - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
@@ -1008,7 +1008,7 @@ Headers: {Accept=[text/html,application/xhtml+xml,application/xml;q=0.9,image/av
 2020-11-17-13-33 [main] [org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean] [INFO] - Creating Service {http://WebService.bionime.com/}CommonServiceImpl from class com.bionime.WebService.CommonService
 2020-11-17-13-33 [main] [org.apache.cxf.endpoint.ServerImpl] [INFO] - Setting the server's publish address to be /CommonService
 2020-11-17-13-33 [main] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter] [INFO] - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@16f7c8c1: startup date [Tue Nov 17 13:33:39 CST 2020]; root of context hierarchy
-2020-11-17-13-33 [main] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] [INFO] - Mapped "{[/find],methods=[POST || GET]}" onto public java.lang.String com.bionime.Controller.WebServiceController.WebService()
+2020-11-17-13-33 [main] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] [INFO] - Mapped "{[/find],methods=[POST || GET]}" onto public java.lang.String com.bionime.controller.WebServiceController.WebService()
 2020-11-17-13-33 [main] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] [INFO] - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
 2020-11-17-13-33 [main] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] [INFO] - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
 2020-11-17-13-33 [main] [org.springframework.web.servlet.handler.SimpleUrlHandlerMapping] [INFO] - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
@@ -1106,7 +1106,7 @@ Payload: <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"><
 2020-11-17-15-18 [main] [org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean] [INFO] - Creating Service {http://WebService.bionime.com/}CommonServiceImpl from class com.bionime.WebService.CommonService
 2020-11-17-15-18 [main] [org.apache.cxf.endpoint.ServerImpl] [INFO] - Setting the server's publish address to be /CommonService
 2020-11-17-15-18 [main] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter] [INFO] - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@fcd6521: startup date [Tue Nov 17 15:18:37 CST 2020]; root of context hierarchy
-2020-11-17-15-18 [main] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] [INFO] - Mapped "{[/find],methods=[POST || GET]}" onto public java.lang.String com.bionime.Controller.WebServiceController.WebService()
+2020-11-17-15-18 [main] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] [INFO] - Mapped "{[/find],methods=[POST || GET]}" onto public java.lang.String com.bionime.controller.WebServiceController.WebService()
 2020-11-17-15-18 [main] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] [INFO] - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
 2020-11-17-15-18 [main] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] [INFO] - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
 2020-11-17-15-18 [main] [org.springframework.web.servlet.handler.SimpleUrlHandlerMapping] [INFO] - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
@@ -1177,7 +1177,7 @@ Payload: <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"><
 2020-11-17-15-22 [main] [org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean] [INFO] - Creating Service {http://WebService.bionime.com/}CommonServiceImpl from class com.bionime.WebService.CommonService
 2020-11-17-15-22 [main] [org.apache.cxf.endpoint.ServerImpl] [INFO] - Setting the server's publish address to be /CommonService
 2020-11-17-15-22 [main] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter] [INFO] - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@fcd6521: startup date [Tue Nov 17 15:22:24 CST 2020]; root of context hierarchy
-2020-11-17-15-22 [main] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] [INFO] - Mapped "{[/find],methods=[POST || GET]}" onto public java.lang.String com.bionime.Controller.WebServiceController.WebService()
+2020-11-17-15-22 [main] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] [INFO] - Mapped "{[/find],methods=[POST || GET]}" onto public java.lang.String com.bionime.controller.WebServiceController.WebService()
 2020-11-17-15-22 [main] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] [INFO] - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
 2020-11-17-15-22 [main] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] [INFO] - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
 2020-11-17-15-22 [main] [org.springframework.web.servlet.handler.SimpleUrlHandlerMapping] [INFO] - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
@@ -1248,4 +1248,258 @@ Encoding: UTF-8
 Http-Method: GET
 Content-Type: 
 Headers: {Accept=[text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9], accept-encoding=[gzip, deflate, br], accept-language=[zh-CN,zh;q=0.9], cache-control=[max-age=0], connection=[keep-alive], Content-Type=[null], cookie=[_ga=GA1.1.1326776878.1593402158; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1603868702], host=[localhost:8081], sec-fetch-dest=[document], sec-fetch-mode=[navigate], sec-fetch-site=[none], sec-fetch-user=[?1], upgrade-insecure-requests=[1], user-agent=[Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36]}
+--------------------------------------
+2020-11-18-09-01 [main] [com.bionime.ClientApplication] [INFO] - Starting ClientApplication on BNH-NB-020 with PID 15900 (C:\Users\Ben.Guo.BNH-NB-020\Desktop\project\Project\target\classes started by Ben.Guo in C:\Users\Ben.Guo.BNH-NB-020\Desktop\project\Project)
+2020-11-18-09-01 [main] [com.bionime.ClientApplication] [INFO] - No active profile set, falling back to default profiles: default
+2020-11-18-09-01 [main] [org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext] [INFO] - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@16f7c8c1: startup date [Wed Nov 18 09:01:15 CST 2020]; root of context hierarchy
+2020-11-18-09-01 [background-preinit] [org.hibernate.validator.internal.util.Version] [INFO] - HV000001: Hibernate Validator 5.3.5.Final
+2020-11-18-09-01 [main] [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] [INFO] - Loading XML bean definitions from class path resource [META-INF/cxf/cxf.xml]
+2020-11-18-09-01 [main] [org.mybatis.spring.mapper.ClassPathMapperScanner] [WARN] - No MyBatis mapper was found in '[com.bionime]' package. Please check your configuration.
+2020-11-18-09-01 [main] [org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer] [INFO] - Tomcat initialized with port(s): 8081 (http)
+2020-11-18-09-01 [localhost-startStop-1] [org.springframework.web.context.ContextLoader] [INFO] - Root WebApplicationContext: initialization completed in 1636 ms
+2020-11-18-09-01 [localhost-startStop-1] [org.springframework.boot.web.servlet.ServletRegistrationBean] [INFO] - Mapping servlet: 'dispatcherServlet' to [/]
+2020-11-18-09-01 [localhost-startStop-1] [org.springframework.boot.web.servlet.ServletRegistrationBean] [INFO] - Mapping servlet: 'CXFServlet' to [/services/*]
+2020-11-18-09-01 [localhost-startStop-1] [org.springframework.boot.web.servlet.FilterRegistrationBean] [INFO] - Mapping filter: 'characterEncodingFilter' to: [/*]
+2020-11-18-09-01 [localhost-startStop-1] [org.springframework.boot.web.servlet.FilterRegistrationBean] [INFO] - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2020-11-18-09-01 [localhost-startStop-1] [org.springframework.boot.web.servlet.FilterRegistrationBean] [INFO] - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2020-11-18-09-01 [localhost-startStop-1] [org.springframework.boot.web.servlet.FilterRegistrationBean] [INFO] - Mapping filter: 'requestContextFilter' to: [/*]
+2020-11-18-09-01 [main] [org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean] [INFO] - Creating Service {http://WebService.bionime.com/}CommonServiceImpl from class com.bionime.WebService.CommonService
+2020-11-18-09-01 [main] [org.apache.cxf.endpoint.ServerImpl] [INFO] - Setting the server's publish address to be /CommonService
+2020-11-18-09-01 [main] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter] [INFO] - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@16f7c8c1: startup date [Wed Nov 18 09:01:15 CST 2020]; root of context hierarchy
+2020-11-18-09-01 [main] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] [INFO] - Mapped "{[/find],methods=[POST || GET]}" onto public java.lang.String com.bionime.controller.WebServiceController.WebService()
+2020-11-18-09-01 [main] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] [INFO] - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2020-11-18-09-01 [main] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] [INFO] - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2020-11-18-09-01 [main] [org.springframework.web.servlet.handler.SimpleUrlHandlerMapping] [INFO] - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-11-18-09-01 [main] [org.springframework.web.servlet.handler.SimpleUrlHandlerMapping] [INFO] - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-11-18-09-01 [main] [org.springframework.web.servlet.handler.SimpleUrlHandlerMapping] [INFO] - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-11-18-09-01 [main] [org.springframework.jmx.export.annotation.AnnotationMBeanExporter] [INFO] - Registering beans for JMX exposure on startup
+2020-11-18-09-01 [main] [org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer] [INFO] - Tomcat started on port(s): 8081 (http)
+2020-11-18-09-01 [main] [com.bionime.ClientApplication] [INFO] - Started ClientApplication in 3.751 seconds (JVM running for 5.434)
+2020-11-18-09-02 [main] [com.bionime.ProjectApplication] [INFO] - Starting ProjectApplication on BNH-NB-020 with PID 15596 (C:\Users\Ben.Guo.BNH-NB-020\Desktop\project\Project\target\classes started by Ben.Guo in C:\Users\Ben.Guo.BNH-NB-020\Desktop\project\Project)
+2020-11-18-09-02 [main] [com.bionime.ProjectApplication] [INFO] - No active profile set, falling back to default profiles: default
+2020-11-18-09-02 [main] [org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext] [INFO] - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@fcd6521: startup date [Wed Nov 18 09:02:23 CST 2020]; root of context hierarchy
+2020-11-18-09-02 [background-preinit] [org.hibernate.validator.internal.util.Version] [INFO] - HV000001: Hibernate Validator 5.3.5.Final
+2020-11-18-09-02 [main] [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] [INFO] - Loading XML bean definitions from class path resource [META-INF/cxf/cxf.xml]
+2020-11-18-09-02 [main] [org.mybatis.spring.mapper.ClassPathMapperScanner] [WARN] - No MyBatis mapper was found in '[com.bionime]' package. Please check your configuration.
+2020-11-18-09-02 [main] [org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer] [INFO] - Tomcat initialized with port(s): 8081 (http)
+2020-11-18-09-02 [localhost-startStop-1] [org.springframework.web.context.ContextLoader] [INFO] - Root WebApplicationContext: initialization completed in 1573 ms
+2020-11-18-09-02 [localhost-startStop-1] [org.springframework.boot.web.servlet.ServletRegistrationBean] [INFO] - Mapping servlet: 'dispatcherServlet' to [/]
+2020-11-18-09-02 [localhost-startStop-1] [org.springframework.boot.web.servlet.ServletRegistrationBean] [INFO] - Mapping servlet: 'CXFServlet' to [/services/*]
+2020-11-18-09-02 [localhost-startStop-1] [org.springframework.boot.web.servlet.FilterRegistrationBean] [INFO] - Mapping filter: 'characterEncodingFilter' to: [/*]
+2020-11-18-09-02 [localhost-startStop-1] [org.springframework.boot.web.servlet.FilterRegistrationBean] [INFO] - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2020-11-18-09-02 [localhost-startStop-1] [org.springframework.boot.web.servlet.FilterRegistrationBean] [INFO] - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2020-11-18-09-02 [localhost-startStop-1] [org.springframework.boot.web.servlet.FilterRegistrationBean] [INFO] - Mapping filter: 'requestContextFilter' to: [/*]
+2020-11-18-09-02 [main] [org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean] [INFO] - Creating Service {http://WebService.bionime.com/}CommonServiceImpl from class com.bionime.WebService.CommonService
+2020-11-18-09-02 [main] [org.apache.cxf.endpoint.ServerImpl] [INFO] - Setting the server's publish address to be /CommonService
+2020-11-18-09-02 [main] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter] [INFO] - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@fcd6521: startup date [Wed Nov 18 09:02:23 CST 2020]; root of context hierarchy
+2020-11-18-09-02 [main] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] [INFO] - Mapped "{[/find],methods=[POST || GET]}" onto public java.lang.String com.bionime.controller.WebServiceController.WebService()
+2020-11-18-09-02 [main] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] [INFO] - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2020-11-18-09-02 [main] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] [INFO] - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2020-11-18-09-02 [main] [org.springframework.web.servlet.handler.SimpleUrlHandlerMapping] [INFO] - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-11-18-09-02 [main] [org.springframework.web.servlet.handler.SimpleUrlHandlerMapping] [INFO] - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-11-18-09-02 [main] [org.springframework.web.servlet.handler.SimpleUrlHandlerMapping] [INFO] - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-11-18-09-02 [main] [org.springframework.jmx.export.annotation.AnnotationMBeanExporter] [INFO] - Registering beans for JMX exposure on startup
+2020-11-18-09-02 [main] [org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer] [INFO] - Tomcat started on port(s): 8081 (http)
+2020-11-18-09-02 [main] [com.bionime.ProjectApplication] [INFO] - Started ProjectApplication in 3.489 seconds (JVM running for 4.547)
+2020-11-18-09-03 [http-nio-8081-exec-1] [org.apache.cxf.services.CommonServiceImpl.CommonServiceImplPort.CommonService] [INFO] - Inbound Message
+----------------------------
+ID: 1
+Address: http://localhost:8081/bionime/services/CommonService?wsdl
+Encoding: UTF-8
+Http-Method: GET
+Content-Type: 
+Headers: {Accept=[text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9], accept-encoding=[gzip, deflate, br], accept-language=[zh-CN,zh;q=0.9], connection=[keep-alive], Content-Type=[null], cookie=[_ga=GA1.1.1326776878.1593402158; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1603868702], host=[localhost:8081], sec-fetch-dest=[document], sec-fetch-mode=[navigate], sec-fetch-site=[none], sec-fetch-user=[?1], upgrade-insecure-requests=[1], user-agent=[Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36]}
+--------------------------------------
+2020-11-18-09-06 [main] [com.bionime.ProjectApplication] [INFO] - Starting ProjectApplication on BNH-NB-020 with PID 16960 (C:\Users\Ben.Guo.BNH-NB-020\Desktop\project\Project\target\classes started by Ben.Guo in C:\Users\Ben.Guo.BNH-NB-020\Desktop\project\Project)
+2020-11-18-09-06 [main] [com.bionime.ProjectApplication] [INFO] - No active profile set, falling back to default profiles: default
+2020-11-18-09-06 [main] [org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext] [INFO] - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@16f7c8c1: startup date [Wed Nov 18 09:06:08 CST 2020]; root of context hierarchy
+2020-11-18-09-06 [background-preinit] [org.hibernate.validator.internal.util.Version] [INFO] - HV000001: Hibernate Validator 5.3.5.Final
+2020-11-18-09-06 [main] [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] [INFO] - Loading XML bean definitions from class path resource [META-INF/cxf/cxf.xml]
+2020-11-18-09-06 [main] [org.mybatis.spring.mapper.ClassPathMapperScanner] [WARN] - No MyBatis mapper was found in '[com.bionime]' package. Please check your configuration.
+2020-11-18-09-06 [main] [org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer] [INFO] - Tomcat initialized with port(s): 8081 (http)
+2020-11-18-09-06 [localhost-startStop-1] [org.springframework.web.context.ContextLoader] [INFO] - Root WebApplicationContext: initialization completed in 1420 ms
+2020-11-18-09-06 [main] [com.bionime.ProjectApplication] [INFO] - Starting ProjectApplication on BNH-NB-020 with PID 20352 (C:\Users\Ben.Guo.BNH-NB-020\Desktop\project\Project\target\classes started by Ben.Guo in C:\Users\Ben.Guo.BNH-NB-020\Desktop\project\Project)
+2020-11-18-09-06 [main] [com.bionime.ProjectApplication] [INFO] - No active profile set, falling back to default profiles: default
+2020-11-18-09-06 [main] [org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext] [INFO] - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@fcd6521: startup date [Wed Nov 18 09:06:14 CST 2020]; root of context hierarchy
+2020-11-18-09-06 [background-preinit] [org.hibernate.validator.internal.util.Version] [INFO] - HV000001: Hibernate Validator 5.3.5.Final
+2020-11-18-09-06 [main] [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] [INFO] - Loading XML bean definitions from class path resource [META-INF/cxf/cxf.xml]
+2020-11-18-09-06 [main] [org.mybatis.spring.mapper.ClassPathMapperScanner] [WARN] - No MyBatis mapper was found in '[com.bionime]' package. Please check your configuration.
+2020-11-18-09-06 [main] [org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer] [INFO] - Tomcat initialized with port(s): 8081 (http)
+2020-11-18-09-06 [localhost-startStop-1] [org.springframework.web.context.ContextLoader] [INFO] - Root WebApplicationContext: initialization completed in 1287 ms
+2020-11-18-09-06 [localhost-startStop-1] [org.springframework.boot.web.servlet.ServletRegistrationBean] [INFO] - Mapping servlet: 'dispatcherServlet' to [/]
+2020-11-18-09-06 [localhost-startStop-1] [org.springframework.boot.web.servlet.ServletRegistrationBean] [INFO] - Mapping servlet: 'CXFServlet' to [/services/*]
+2020-11-18-09-06 [localhost-startStop-1] [org.springframework.boot.web.servlet.FilterRegistrationBean] [INFO] - Mapping filter: 'characterEncodingFilter' to: [/*]
+2020-11-18-09-06 [localhost-startStop-1] [org.springframework.boot.web.servlet.FilterRegistrationBean] [INFO] - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2020-11-18-09-06 [localhost-startStop-1] [org.springframework.boot.web.servlet.FilterRegistrationBean] [INFO] - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2020-11-18-09-06 [localhost-startStop-1] [org.springframework.boot.web.servlet.FilterRegistrationBean] [INFO] - Mapping filter: 'requestContextFilter' to: [/*]
+2020-11-18-09-06 [main] [org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean] [INFO] - Creating Service {http://WebService.bionime.com/}CommonServiceImpl from class com.bionime.WebService.CommonService
+2020-11-18-09-06 [main] [org.apache.cxf.endpoint.ServerImpl] [INFO] - Setting the server's publish address to be /CommonService
+2020-11-18-09-06 [main] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter] [INFO] - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@fcd6521: startup date [Wed Nov 18 09:06:14 CST 2020]; root of context hierarchy
+2020-11-18-09-06 [main] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] [INFO] - Mapped "{[/find],methods=[POST || GET]}" onto public java.lang.String com.bionime.controller.WebServiceController.WebService()
+2020-11-18-09-06 [main] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] [INFO] - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2020-11-18-09-06 [main] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] [INFO] - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2020-11-18-09-06 [main] [org.springframework.web.servlet.handler.SimpleUrlHandlerMapping] [INFO] - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-11-18-09-06 [main] [org.springframework.web.servlet.handler.SimpleUrlHandlerMapping] [INFO] - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-11-18-09-06 [main] [org.springframework.web.servlet.handler.SimpleUrlHandlerMapping] [INFO] - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-11-18-09-06 [main] [org.springframework.jmx.export.annotation.AnnotationMBeanExporter] [INFO] - Registering beans for JMX exposure on startup
+2020-11-18-09-06 [main] [org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer] [INFO] - Tomcat started on port(s): 8081 (http)
+2020-11-18-09-06 [main] [com.bionime.ProjectApplication] [INFO] - Started ProjectApplication in 3.512 seconds (JVM running for 4.608)
+2020-11-18-09-06 [http-nio-8081-exec-1] [org.apache.cxf.services.CommonServiceImpl.CommonServiceImplPort.CommonService3] [INFO] - Inbound Message
+----------------------------
+ID: 1
+Address: http://localhost:8081/bionime/services/CommonService?wsdl
+Encoding: UTF-8
+Http-Method: GET
+Content-Type: 
+Headers: {Accept=[text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9], accept-encoding=[gzip, deflate, br], accept-language=[zh-CN,zh;q=0.9], cache-control=[max-age=0], connection=[keep-alive], Content-Type=[null], cookie=[_ga=GA1.1.1326776878.1593402158; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1603868702], host=[localhost:8081], sec-fetch-dest=[document], sec-fetch-mode=[navigate], sec-fetch-site=[none], sec-fetch-user=[?1], upgrade-insecure-requests=[1], user-agent=[Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36]}
+--------------------------------------
+2020-11-18-09-06 [http-nio-8081-exec-2] [org.apache.cxf.services.CommonServiceImpl.CommonServiceImplPort.CommonService3] [INFO] - Inbound Message
+----------------------------
+ID: 2
+Address: http://localhost:8081/bionime/services/CommonService?wsdl
+Encoding: UTF-8
+Http-Method: GET
+Content-Type: 
+Headers: {Accept=[text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9], accept-encoding=[gzip, deflate, br], accept-language=[zh-CN,zh;q=0.9], cache-control=[max-age=0], connection=[keep-alive], Content-Type=[null], cookie=[_ga=GA1.1.1326776878.1593402158; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1603868702], host=[localhost:8081], sec-fetch-dest=[document], sec-fetch-mode=[navigate], sec-fetch-site=[none], sec-fetch-user=[?1], upgrade-insecure-requests=[1], user-agent=[Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36]}
+--------------------------------------
+2020-11-18-09-06 [http-nio-8081-exec-3] [org.apache.cxf.services.CommonServiceImpl.CommonServiceImplPort.CommonService3] [INFO] - Inbound Message
+----------------------------
+ID: 3
+Address: http://localhost:8081/bionime/services/CommonService?wsdl
+Encoding: UTF-8
+Http-Method: GET
+Content-Type: 
+Headers: {Accept=[text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9], accept-encoding=[gzip, deflate, br], accept-language=[zh-CN,zh;q=0.9], cache-control=[max-age=0], connection=[keep-alive], Content-Type=[null], cookie=[_ga=GA1.1.1326776878.1593402158; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1603868702], host=[localhost:8081], sec-fetch-dest=[document], sec-fetch-mode=[navigate], sec-fetch-site=[none], sec-fetch-user=[?1], upgrade-insecure-requests=[1], user-agent=[Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36]}
+--------------------------------------
+2020-11-18-09-06 [http-nio-8081-exec-4] [org.apache.cxf.services.CommonServiceImpl.CommonServiceImplPort.CommonService3] [INFO] - Inbound Message
+----------------------------
+ID: 4
+Address: http://localhost:8081/bionime/services/CommonService?wsdl
+Encoding: UTF-8
+Http-Method: GET
+Content-Type: 
+Headers: {Accept=[text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9], accept-encoding=[gzip, deflate, br], accept-language=[zh-CN,zh;q=0.9], cache-control=[max-age=0], connection=[keep-alive], Content-Type=[null], cookie=[_ga=GA1.1.1326776878.1593402158; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1603868702], host=[localhost:8081], sec-fetch-dest=[document], sec-fetch-mode=[navigate], sec-fetch-site=[none], sec-fetch-user=[?1], upgrade-insecure-requests=[1], user-agent=[Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36]}
+--------------------------------------
+2020-11-18-09-06 [http-nio-8081-exec-5] [org.apache.cxf.services.CommonServiceImpl.CommonServiceImplPort.CommonService3] [INFO] - Inbound Message
+----------------------------
+ID: 5
+Address: http://localhost:8081/bionime/services/CommonService?wsdl
+Encoding: UTF-8
+Http-Method: GET
+Content-Type: 
+Headers: {Accept=[text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9], accept-encoding=[gzip, deflate, br], accept-language=[zh-CN,zh;q=0.9], cache-control=[max-age=0], connection=[keep-alive], Content-Type=[null], cookie=[_ga=GA1.1.1326776878.1593402158; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1603868702], host=[localhost:8081], sec-fetch-dest=[document], sec-fetch-mode=[navigate], sec-fetch-site=[none], sec-fetch-user=[?1], upgrade-insecure-requests=[1], user-agent=[Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36]}
+--------------------------------------
+2020-11-18-09-07 [main] [com.bionime.ProjectApplication] [INFO] - Starting ProjectApplication on BNH-NB-020 with PID 13344 (C:\Users\Ben.Guo.BNH-NB-020\Desktop\project\Project\target\classes started by Ben.Guo in C:\Users\Ben.Guo.BNH-NB-020\Desktop\project\Project)
+2020-11-18-09-07 [main] [com.bionime.ProjectApplication] [INFO] - No active profile set, falling back to default profiles: default
+2020-11-18-09-07 [main] [org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext] [INFO] - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@fcd6521: startup date [Wed Nov 18 09:07:08 CST 2020]; root of context hierarchy
+2020-11-18-09-07 [background-preinit] [org.hibernate.validator.internal.util.Version] [INFO] - HV000001: Hibernate Validator 5.3.5.Final
+2020-11-18-09-07 [main] [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] [INFO] - Loading XML bean definitions from class path resource [META-INF/cxf/cxf.xml]
+2020-11-18-09-07 [main] [org.mybatis.spring.mapper.ClassPathMapperScanner] [WARN] - No MyBatis mapper was found in '[com.bionime]' package. Please check your configuration.
+2020-11-18-09-07 [main] [org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer] [INFO] - Tomcat initialized with port(s): 8081 (http)
+2020-11-18-09-07 [localhost-startStop-1] [org.springframework.web.context.ContextLoader] [INFO] - Root WebApplicationContext: initialization completed in 1735 ms
+2020-11-18-09-07 [localhost-startStop-1] [org.springframework.boot.web.servlet.ServletRegistrationBean] [INFO] - Mapping servlet: 'dispatcherServlet' to [/]
+2020-11-18-09-07 [localhost-startStop-1] [org.springframework.boot.web.servlet.ServletRegistrationBean] [INFO] - Mapping servlet: 'CXFServlet' to [/services/*]
+2020-11-18-09-07 [localhost-startStop-1] [org.springframework.boot.web.servlet.FilterRegistrationBean] [INFO] - Mapping filter: 'characterEncodingFilter' to: [/*]
+2020-11-18-09-07 [localhost-startStop-1] [org.springframework.boot.web.servlet.FilterRegistrationBean] [INFO] - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2020-11-18-09-07 [localhost-startStop-1] [org.springframework.boot.web.servlet.FilterRegistrationBean] [INFO] - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2020-11-18-09-07 [localhost-startStop-1] [org.springframework.boot.web.servlet.FilterRegistrationBean] [INFO] - Mapping filter: 'requestContextFilter' to: [/*]
+2020-11-18-09-07 [main] [org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean] [INFO] - Creating Service {http://WebService.bionime.com/}CommonServiceImpl from class com.bionime.WebService.CommonService
+2020-11-18-09-07 [main] [org.apache.cxf.endpoint.ServerImpl] [INFO] - Setting the server's publish address to be /CommonService
+2020-11-18-09-07 [main] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter] [INFO] - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@fcd6521: startup date [Wed Nov 18 09:07:08 CST 2020]; root of context hierarchy
+2020-11-18-09-07 [main] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] [INFO] - Mapped "{[/find],methods=[POST || GET]}" onto public java.lang.String com.bionime.controller.WebServiceController.WebService()
+2020-11-18-09-07 [main] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] [INFO] - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2020-11-18-09-07 [main] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] [INFO] - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2020-11-18-09-07 [main] [org.springframework.web.servlet.handler.SimpleUrlHandlerMapping] [INFO] - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-11-18-09-07 [main] [org.springframework.web.servlet.handler.SimpleUrlHandlerMapping] [INFO] - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-11-18-09-07 [main] [org.springframework.web.servlet.handler.SimpleUrlHandlerMapping] [INFO] - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-11-18-09-07 [main] [org.springframework.jmx.export.annotation.AnnotationMBeanExporter] [INFO] - Registering beans for JMX exposure on startup
+2020-11-18-09-07 [main] [org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer] [INFO] - Tomcat started on port(s): 8081 (http)
+2020-11-18-09-07 [main] [com.bionime.ProjectApplication] [INFO] - Started ProjectApplication in 3.35 seconds (JVM running for 4.454)
+2020-11-18-09-07 [http-nio-8081-exec-1] [org.apache.cxf.services.CommonServiceImpl.CommonServiceImplPort.CommonService] [INFO] - Inbound Message
+----------------------------
+ID: 1
+Address: http://localhost:8081/bionime/services/CommonService?wsdl
+Encoding: UTF-8
+Http-Method: GET
+Content-Type: 
+Headers: {Accept=[text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9], accept-encoding=[gzip, deflate, br], accept-language=[zh-CN,zh;q=0.9], connection=[keep-alive], Content-Type=[null], cookie=[_ga=GA1.1.1326776878.1593402158; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1603868702], host=[localhost:8081], sec-fetch-dest=[document], sec-fetch-mode=[navigate], sec-fetch-site=[none], upgrade-insecure-requests=[1], user-agent=[Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36]}
+--------------------------------------
+2020-11-18-11-33 [main] [com.bionime.ProjectApplication] [INFO] - Starting ProjectApplication on BNH-NB-020 with PID 3336 (C:\Users\Ben.Guo.BNH-NB-020\Desktop\project\Project\target\classes started by Ben.Guo in C:\Users\Ben.Guo.BNH-NB-020\Desktop\project\Project)
+2020-11-18-11-33 [main] [com.bionime.ProjectApplication] [INFO] - No active profile set, falling back to default profiles: default
+2020-11-18-11-33 [main] [org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext] [INFO] - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@fcd6521: startup date [Wed Nov 18 11:33:50 CST 2020]; root of context hierarchy
+2020-11-18-11-33 [background-preinit] [org.hibernate.validator.internal.util.Version] [INFO] - HV000001: Hibernate Validator 5.3.5.Final
+2020-11-18-11-33 [main] [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] [INFO] - Loading XML bean definitions from class path resource [META-INF/cxf/cxf.xml]
+2020-11-18-11-33 [main] [org.mybatis.spring.mapper.ClassPathMapperScanner] [WARN] - No MyBatis mapper was found in '[com.bionime]' package. Please check your configuration.
+2020-11-18-11-33 [main] [org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer] [INFO] - Tomcat initialized with port(s): 8081 (http)
+2020-11-18-11-33 [localhost-startStop-1] [org.springframework.web.context.ContextLoader] [INFO] - Root WebApplicationContext: initialization completed in 1448 ms
+2020-11-18-11-33 [localhost-startStop-1] [org.springframework.boot.web.servlet.ServletRegistrationBean] [INFO] - Mapping servlet: 'dispatcherServlet' to [/]
+2020-11-18-11-33 [localhost-startStop-1] [org.springframework.boot.web.servlet.ServletRegistrationBean] [INFO] - Mapping servlet: 'CXFServlet' to [/services/*]
+2020-11-18-11-33 [localhost-startStop-1] [org.springframework.boot.web.servlet.FilterRegistrationBean] [INFO] - Mapping filter: 'characterEncodingFilter' to: [/*]
+2020-11-18-11-33 [localhost-startStop-1] [org.springframework.boot.web.servlet.FilterRegistrationBean] [INFO] - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2020-11-18-11-33 [localhost-startStop-1] [org.springframework.boot.web.servlet.FilterRegistrationBean] [INFO] - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2020-11-18-11-33 [localhost-startStop-1] [org.springframework.boot.web.servlet.FilterRegistrationBean] [INFO] - Mapping filter: 'requestContextFilter' to: [/*]
+2020-11-18-11-33 [main] [org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean] [INFO] - Creating Service {http://WebService.bionime.com/}CommonServiceImpl from class com.bionime.WebService.CommonService
+2020-11-18-11-33 [main] [org.apache.cxf.endpoint.ServerImpl] [INFO] - Setting the server's publish address to be /CommonService
+2020-11-18-11-33 [main] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter] [INFO] - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@fcd6521: startup date [Wed Nov 18 11:33:50 CST 2020]; root of context hierarchy
+2020-11-18-11-33 [main] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] [INFO] - Mapped "{[/find],methods=[POST || GET]}" onto public java.lang.String com.bionime.controller.WebServiceController.WebService()
+2020-11-18-11-33 [main] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] [INFO] - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2020-11-18-11-33 [main] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] [INFO] - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2020-11-18-11-33 [main] [org.springframework.web.servlet.handler.SimpleUrlHandlerMapping] [INFO] - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-11-18-11-33 [main] [org.springframework.web.servlet.handler.SimpleUrlHandlerMapping] [INFO] - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-11-18-11-33 [main] [org.springframework.web.servlet.handler.SimpleUrlHandlerMapping] [INFO] - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-11-18-11-33 [main] [org.springframework.jmx.export.annotation.AnnotationMBeanExporter] [INFO] - Registering beans for JMX exposure on startup
+2020-11-18-11-33 [main] [org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer] [INFO] - Tomcat started on port(s): 8081 (http)
+2020-11-18-11-33 [main] [com.bionime.ProjectApplication] [INFO] - Started ProjectApplication in 3.609 seconds (JVM running for 4.898)
+2020-11-18-11-34 [http-nio-8081-exec-1] [org.apache.cxf.services.CommonServiceImpl.CommonServiceImplPort.CommonService] [INFO] - Inbound Message
+----------------------------
+ID: 1
+Address: http://localhost:8081/bionime/services/CommonService?wsdl
+Encoding: UTF-8
+Http-Method: GET
+Content-Type: 
+Headers: {Accept=[text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9], accept-encoding=[gzip, deflate, br], accept-language=[zh-CN,zh;q=0.9], connection=[keep-alive], Content-Type=[null], cookie=[_ga=GA1.1.1326776878.1593402158; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1603868702], host=[localhost:8081], purpose=[prefetch], sec-fetch-dest=[document], sec-fetch-mode=[navigate], sec-fetch-site=[none], sec-fetch-user=[?1], upgrade-insecure-requests=[1], user-agent=[Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36]}
+--------------------------------------
+2020-12-02-13-20 [main] [com.bionime.ProjectApplication] [INFO] - Starting ProjectApplication on BNH-NB-020 with PID 22548 (C:\Users\Ben.Guo.BNH-NB-020\Desktop\project\Project\target\classes started by Ben.Guo in C:\Users\Ben.Guo.BNH-NB-020\Desktop\project\Project)
+2020-12-02-13-20 [main] [com.bionime.ProjectApplication] [INFO] - No active profile set, falling back to default profiles: default
+2020-12-02-13-20 [main] [org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext] [INFO] - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@fcd6521: startup date [Wed Dec 02 13:20:09 CST 2020]; root of context hierarchy
+2020-12-02-13-20 [background-preinit] [org.hibernate.validator.internal.util.Version] [INFO] - HV000001: Hibernate Validator 5.3.5.Final
+2020-12-02-13-20 [main] [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] [INFO] - Loading XML bean definitions from class path resource [META-INF/cxf/cxf.xml]
+2020-12-02-13-20 [main] [org.mybatis.spring.mapper.ClassPathMapperScanner] [WARN] - No MyBatis mapper was found in '[com.bionime]' package. Please check your configuration.
+2020-12-02-13-20 [main] [org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer] [INFO] - Tomcat initialized with port(s): 8081 (http)
+2020-12-02-13-20 [localhost-startStop-1] [org.springframework.web.context.ContextLoader] [INFO] - Root WebApplicationContext: initialization completed in 1520 ms
+2020-12-02-13-20 [localhost-startStop-1] [org.springframework.boot.web.servlet.ServletRegistrationBean] [INFO] - Mapping servlet: 'dispatcherServlet' to [/]
+2020-12-02-13-20 [localhost-startStop-1] [org.springframework.boot.web.servlet.ServletRegistrationBean] [INFO] - Mapping servlet: 'CXFServlet' to [/services/*]
+2020-12-02-13-20 [localhost-startStop-1] [org.springframework.boot.web.servlet.FilterRegistrationBean] [INFO] - Mapping filter: 'characterEncodingFilter' to: [/*]
+2020-12-02-13-20 [localhost-startStop-1] [org.springframework.boot.web.servlet.FilterRegistrationBean] [INFO] - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2020-12-02-13-20 [localhost-startStop-1] [org.springframework.boot.web.servlet.FilterRegistrationBean] [INFO] - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2020-12-02-13-20 [localhost-startStop-1] [org.springframework.boot.web.servlet.FilterRegistrationBean] [INFO] - Mapping filter: 'requestContextFilter' to: [/*]
+2020-12-02-13-20 [main] [org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean] [INFO] - Creating Service {http://WebService.bionime.com/}CommonServiceImpl from class com.bionime.WebService.CommonService
+2020-12-02-13-20 [main] [org.apache.cxf.endpoint.ServerImpl] [INFO] - Setting the server's publish address to be /CommonService
+2020-12-02-13-20 [main] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter] [INFO] - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@fcd6521: startup date [Wed Dec 02 13:20:09 CST 2020]; root of context hierarchy
+2020-12-02-13-20 [main] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] [INFO] - Mapped "{[/find],methods=[POST || GET]}" onto public java.lang.String com.bionime.controller.WebServiceController.WebService()
+2020-12-02-13-20 [main] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] [INFO] - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2020-12-02-13-20 [main] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] [INFO] - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2020-12-02-13-20 [main] [org.springframework.web.servlet.handler.SimpleUrlHandlerMapping] [INFO] - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-12-02-13-20 [main] [org.springframework.web.servlet.handler.SimpleUrlHandlerMapping] [INFO] - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-12-02-13-20 [main] [org.springframework.web.servlet.handler.SimpleUrlHandlerMapping] [INFO] - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-12-02-13-20 [main] [org.springframework.jmx.export.annotation.AnnotationMBeanExporter] [INFO] - Registering beans for JMX exposure on startup
+2020-12-02-13-20 [main] [org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer] [INFO] - Tomcat started on port(s): 8081 (http)
+2020-12-02-13-20 [main] [com.bionime.ProjectApplication] [INFO] - Started ProjectApplication in 3.602 seconds (JVM running for 4.928)
+2020-12-02-13-21 [http-nio-8081-exec-3] [org.apache.cxf.services.CommonServiceImpl.CommonServiceImplPort.CommonService] [INFO] - Inbound Message
+----------------------------
+ID: 1
+Address: http://localhost:8081/bionime/services/CommonService?wsdl
+Encoding: UTF-8
+Http-Method: GET
+Content-Type: 
+Headers: {Accept=[text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9], accept-encoding=[gzip, deflate, br], accept-language=[zh-CN,zh;q=0.9], connection=[keep-alive], Content-Type=[null], cookie=[_ga=GA1.1.1326776878.1593402158; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1603868702], host=[localhost:8081], sec-fetch-dest=[document], sec-fetch-mode=[navigate], sec-fetch-site=[none], upgrade-insecure-requests=[1], user-agent=[Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.66 Safari/537.36]}
+--------------------------------------
+2020-12-02-13-21 [http-nio-8081-exec-5] [org.apache.cxf.services.CommonServiceImpl.CommonServiceImplPort.CommonService] [INFO] - Inbound Message
+----------------------------
+ID: 2
+Address: http://localhost:8081/bionime/services/CommonService?wsdl
+Encoding: UTF-8
+Http-Method: GET
+Content-Type: 
+Headers: {Accept=[text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9], accept-encoding=[gzip, deflate, br], accept-language=[zh-CN,zh;q=0.9], connection=[keep-alive], Content-Type=[null], cookie=[_ga=GA1.1.1326776878.1593402158; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1603868702], host=[localhost:8081], sec-fetch-dest=[document], sec-fetch-mode=[navigate], sec-fetch-site=[none], upgrade-insecure-requests=[1], user-agent=[Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.66 Safari/537.36]}
 --------------------------------------

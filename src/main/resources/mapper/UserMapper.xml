@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.bionime.dao.UserMapper">
+  <resultMap type="com.bionime.entity.User" id="user">
+    <id column="id" property="id"/>
+    <result column="username" property="username"/>
+    <result column="password" property="password"/>
+  </resultMap>
+
+  <insert id="addUser" parameterType="com.bionime.entity.User" >
+      insert into user(username,password) values(#{username},#{password})
+  </insert>
+  <select id="selectUser" resultType="java.lang.Integer" parameterType="java.lang.String">
+      select count(*) from user where username=#{username}
+  </select>
+  <update id="updateUser" parameterType="com.bionime.entity.User" >
+  update user set password = #{password} where username = #{username}
+  </update>
+
+</mapper>
